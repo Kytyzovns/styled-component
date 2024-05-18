@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import {GlobalStyles, StyledBtn, StyledDiv, StyledImg} from "./Styles";
-import landscape from './images/landscape.jpg';
-import {themes} from "./myTheme";
+import {GlobalStyles} from "./Styles/Styles";
 import StyledCard from "./Card";
 
 

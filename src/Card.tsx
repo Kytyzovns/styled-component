@@ -1,7 +1,10 @@
-import {StyledBtn, StyledDiv, StyledImg} from "./Styles";
 import landscape from "./images/landscape.jpg";
 import {themes} from "./myTheme";
 import React from "react";
+import {StyledDiv} from "./Styles/DivStyles";
+import {StyledImg} from "./Styles/ImgStyles";
+import {StyledBtn} from "./Styles/ButtonStyles";
+
 
 type CardProps = {
     headline: string;
