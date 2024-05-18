@@ -20,8 +20,8 @@ function StyledCard(props: CardProps) {
                     enhancing the visual appeal of your designs.
                 </p>
                 <div className="div2">
-                    <StyledBtn backColor={themes.colors.blu} textColor={"white"}>See more</StyledBtn>
-                    <StyledBtn textColor={themes.colors.blu}>Save</StyledBtn>
+                    <StyledBtn filled textColor={"white"}>See more</StyledBtn>
+                    <StyledBtn outlined textColor={themes.colors.blu}>Save</StyledBtn>
                 </div>
             </div>
         </StyledDiv>
