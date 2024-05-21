@@ -11,16 +11,7 @@ export const GlobalStyles = createGlobalStyle`
         width: 90%;
         margin: 0;
     }
-    .div1 {
-        * {
-            margin: 15px 0 15px 0 ;
-        }
-    }
-    .div2 {
-        display: flex;
-        gap: 20px;
-    }
-
+    
     body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
