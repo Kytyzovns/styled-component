@@ -2,6 +2,7 @@ import styled from "styled-components";
 import {themes} from "../myTheme";
 
 export const StyledDiv = styled.div`
+    font-family: "Inter", sans-serif;
     width: min-content;
     padding: 10px;
     margin: 30px;
