@@ -1,9 +1,9 @@
 import landscape from "./images/landscape.jpg";
-import {themes} from "./myTheme";
 import React from "react";
 import {StyledDiv} from "./Styles/DivStyles";
 import {StyledImg} from "./Styles/ImgStyles";
 import {StyledBtn} from "./Styles/ButtonStyles";
+import {StyledH1, StyledP} from "./Styles/TextStyles";
 
 
 type CardProps = {
@@ -12,21 +12,17 @@ type CardProps = {
 
 function StyledCard(props: CardProps) {
     return (
-
         <StyledDiv>
             <StyledImg src={landscape} alt="Landscape"/>
-
-            <div className="div1">
-                <h2>{props.headline}</h2>
-                <p>By mastering these properties,
+                <StyledH1>{props.headline}</StyledH1>
+                <StyledP>By mastering these properties,
                     you can add depth and dimension to your web elements,
                     enhancing the visual appeal of your designs.
-                </p>
+                </StyledP>
                 <div className="div2">
-                    <StyledBtn filled textColor={"white"}>See more</StyledBtn>
-                    <StyledBtn outlined textColor={themes.colors.blu}>Save</StyledBtn>
+                    <StyledBtn filled>See more</StyledBtn>
+                    <StyledBtn outlined>Save</StyledBtn>
                 </div>
-            </div>
         </StyledDiv>
     );
 }

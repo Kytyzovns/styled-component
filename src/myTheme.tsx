@@ -1,7 +1,8 @@
 export const themes = {
     colors: {
         border: "grey",
-        blu: "#2656bf",
-        pink: "#ab26bf"
+        blu: "#4e71fe",
+        pink: "#ab26bf",
+        white: "#fff"
     }
 }

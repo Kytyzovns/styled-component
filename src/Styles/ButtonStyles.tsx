@@ -9,25 +9,28 @@ type StyledBtnProps = {
 }
 export const StyledBtn = styled.button<StyledBtnProps>`
     cursor: pointer;
-    height: 40px;
-    width: 130px;
-    font-weight: bold;
-    color: ${props => props.textColor};
-    border-radius: 10px;
-    border: solid 3px ${themes.colors.blu};
-    
+    width: 86px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 200%;
+
     ${props => props.filled && css<StyledBtnProps>`
+        border: transparent;
         background-color: ${themes.colors.blu};
+        color: ${themes.colors.white};
 
         &:hover {
             background-color: ${themes.colors.pink};
             border-color: ${themes.colors.pink};
         }
     `}
-
-
+    
     ${props => props.outlined && css<StyledBtnProps>`
-        background-color: white;
+        border: 2px solid ${themes.colors.blu};
+        background-color: ${themes.colors.white};
+        color: ${themes.colors.blu};
 
         &:hover {
             border-color: ${themes.colors.pink};

@@ -6,10 +6,9 @@ import StyledCard from "./Card";
 
 function App() {
   return (
-    <div>
+    <div className="div3">
     <GlobalStyles/>
       <StyledCard headline={"First headline"}/>
-      <StyledCard headline={"Second headline"}/>
     </div>
   );
 }

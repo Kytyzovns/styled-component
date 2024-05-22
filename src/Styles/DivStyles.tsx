@@ -1,21 +1,14 @@
 import styled from "styled-components";
+import {themes} from "../myTheme";
 
 export const StyledDiv = styled.div`
-    width: 500px;
+    width: min-content;
+    padding: 10px;
+    margin: 30px;
+    height: min-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 0 0 30px 15px rgba(4, 5, 5, 0.15);
-    margin: 50px;
-
-    .div1 {
-        * {
-            margin: 15px 0 15px 0 ;
-        }
-    }
-    .div2 {
-        display: flex;
-        gap: 20px;
-    }
+    border-radius: 15px;
+    box-shadow:  0 4px 20px 5px rgba(0, 0, 0, 0.1);
+    background-color: ${themes.colors.white};
 `

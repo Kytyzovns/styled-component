@@ -4,12 +4,12 @@ export const GlobalStyles = createGlobalStyle`
     *, *::before, *::after {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
     
-    div {
-        width: 90%;
-        margin: 0;
+    .div2 {
+        display: flex;
+        gap: 12px;
+        margin: 0 10px 9px 10px;
     }
     
     body {
@@ -25,7 +25,6 @@ export const GlobalStyles = createGlobalStyle`
         font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
     }
-    
     
 `
 
